@@ -1,3 +1,9 @@
+import Stopwatch from "@/components/Stopwatch";
+
 export default function App() {
-  return <div>App</div>;
+  return (
+    <main className="min-h-screen flex justify-center items-center">
+      <Stopwatch />
+    </main>
+  );
 }
